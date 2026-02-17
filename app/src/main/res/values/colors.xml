@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color1">#039BE5</color>
+    <color name="color3">#A9F6FF</color>
+    <color name="color2">#00039BE5</color>
+    <color name="color4">#333333</color>
+    <color name="color5">#1995AD</color>
+    <color name="color6">#A1D6E2</color>
+    <color name="color7">#F1F1F2</color>
+    <color name="color8">#2B2B2B</color>
+    <color name="colorFacebook">#1877F2</color>
+    <color name="mainBackgroundColor">#DAFBFF</color>
+    <color name="color9">#CDCDCD</color>
+    <color name="color10">#FF0000</color>
+    <color name="ic_launcher_background">#F1F1F2</color>
+</resources>

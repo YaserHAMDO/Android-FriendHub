@@ -1,0 +1,46 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+*.swp
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# ===== Gradle / Build =====
+.gradle/
+build/
+**/build/
+
+# Local config
+local.properties
+
+# Kotlin / Java
+*.class
+*.log
+
+# ===== Android =====
+*.apk
+*.aab
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Firebase / Google Services (DO NOT COMMIT REAL FILES)
+app/google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+*.pem
+
+# ===== Optional: Crashlytics / Logs =====
+crashlytics-build.properties

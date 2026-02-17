@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color7">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/lineView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color4"
+        app:layout_constraintBottom_toTopOf="@id/barLinearLayout" />
+
+    <LinearLayout
+        android:id="@+id/barLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color7"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/icon1LinearLayout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect3"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/icon1ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/colored_chat_icon" />
+
+            <TextView
+                android:id="@+id/icon1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/home"
+                android:textColor="@color/color5"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/icon2LinearLayout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect3"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/icon2ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/non_colored_post_icon" />
+
+            <TextView
+                android:id="@+id/icon2TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/posts"
+                android:textColor="@color/color4"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/icon3LinearLayout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect3"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/icon3ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/non_colored_friends_icon" />
+
+            <TextView
+                android:id="@+id/icon3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/friend_hub"
+                android:textColor="@color/color4"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:id="@+id/icon4LinearLayout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ripple_effect3"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/icon4ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:contentDescription="@string/todo"
+                android:padding="2dp"
+                android:src="@drawable/non_colored_profile_icon" />
+
+            <TextView
+                android:id="@+id/icon4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/profile"
+                android:textColor="@color/color4"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

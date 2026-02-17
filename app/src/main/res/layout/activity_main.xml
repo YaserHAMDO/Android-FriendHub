@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color7"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/backImageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/todo"
+            android:padding="10dp"
+            android:src="@drawable/group_36917" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp">
+
+            <View
+                android:id="@+id/progressName"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_background" />
+
+            <View
+                android:id="@+id/progressLocation"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_gray_background" />
+
+            <View
+                android:id="@+id/progressImage"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_gray_background" />
+
+            <View
+                android:id="@+id/progressGender"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_gray_background" />
+
+            <View
+                android:id="@+id/progressBirthdate"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_gray_background" />
+
+            <View
+                android:id="@+id/progressAbout"
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/tab_gray_background" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+</LinearLayout>

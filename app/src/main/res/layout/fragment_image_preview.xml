@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/senderNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white" />
+
+    <com.engyh.friendhub.presentation.util.ZoomableImageView
+        android:id="@+id/previewedImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#1A1995AD"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:transitionName="shared_image"
+        android:visibility="gone"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        app:strokeColor="@color/color5"
+        app:strokeWidth="0.7dp" />
+
+    <ImageView
+        android:id="@+id/downloadImageView"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:scaleType="fitXY"
+        android:layout_marginVertical="20dp"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/download_bold_arrow_icon" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_clear_chat" android:title="@string/clear_chat" />
+    <item android:id="@+id/action_block_user" android:title="@string/block_user" />
+    <item android:id="@+id/action_mute" android:title="@string/mute" />
+    <item android:id="@+id/action_report" android:title="@string/report" />
+</menu>

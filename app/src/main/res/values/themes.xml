@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="Theme.FriendHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/color3</item>
+        <item name="colorSecondary">@color/color3</item>
+        <item name="android:statusBarColor">@color/color7</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FriendHub.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/color7</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.FriendHub</item>
+    </style>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Picker2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DialogTheme" parent="AppTheme.Picker2">
+        <item name="colorAccent">@color/color4</item>
+        <item name="android:textColor">@color/color4</item>
+        <item name="android:color">@color/color4</item>
+        <item name="colorPrimaryDark">@color/color4</item>
+        <item name="colorPrimary">@color/color4</item>
+        <item name="colorSecondary">@color/color4</item>
+        <item name="colorOnSecondary">@color/color4</item>
+        <item name="android:textColorLink">@color/color4</item>
+        <item name="android:textColorPrimary">@color/color4</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="CircularImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="CircularImageView2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:rotation">180</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle3</item>
+    </style>
+</resources>
