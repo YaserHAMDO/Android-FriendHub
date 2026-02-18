@@ -40,62 +40,64 @@ It demonstrates scalable architecture, real-time communication, and modern Andro
   
 ## Screenshots
 <p align="left">
-  <img alt="i" src="https://github.com/user-attachments/assets/d6307400-14d3-4294-821d-dfa13a79b04f" width="30%">
+  <img alt="i" src="https://github.com/user-attachments/assets/3a439a76-ad84-4c7d-89bb-2db1f8227065" width="30%">
    <img width="3%">
-  <img alt="j" src="https://github.com/user-attachments/assets/97033e68-16dc-4e3a-937c-e7de571f1783" width="30%">
-</p>
-
-
-<p align="left">
-    <img alt="k" src="https://github.com/user-attachments/assets/837407b3-c7df-4862-a6fa-26a815a849a1" width="30%">
-   <img width="3%">
-  <img alt="l" src="https://github.com/user-attachments/assets/4f1bcd25-df79-4ee1-93ac-ea45187016d9" width="30%">
-</p>
-
-<p align="left">
-  <img alt="m" src="https://github.com/user-attachments/assets/07b09db1-923e-4287-abff-e9ea7080a649" width="30%">
-   <img width="3%">
-   <img alt="n" src="https://github.com/user-attachments/assets/9a34c11a-0635-4a89-ba81-ac4ffa0bb8e3" width="30%">
+  <img alt="j" src="https://github.com/user-attachments/assets/358a6c19-7f66-4c45-9ca4-54f6bf00e4de" width="30%">
 </p>
 
 
 
 
 <p align="left">
-   <img alt="c" src="https://github.com/user-attachments/assets/594a4047-2195-412d-8597-70863ea78e2a" width="30%">
+    <img alt="k" src="https://github.com/user-attachments/assets/43d668f7-ef6b-4d32-8f33-ceb491bde4dc" width="30%">
+   <img width="3%">
+  <img alt="l" src="https://github.com/user-attachments/assets/ca11d0eb-f566-485b-ba10-3b40ad65433e" width="30%">
+</p>
+
+<p align="left">
+  <img alt="m" src="https://github.com/user-attachments/assets/8712b908-37dc-497d-884e-a92dd4029656" width="30%">
+   <img width="3%">
+   <img alt="n" src="https://github.com/user-attachments/assets/1e9f3d61-8ceb-47fe-9f9d-0713929f10e1" width="30%">
+</p>
+
+
+
+
+<p align="left">
+   <img alt="c" src="https://github.com/user-attachments/assets/eb569abc-b2a6-4a79-9f19-191f27ff6522" width="30%">
   <img width="3%">
-  <img alt="a" src="https://github.com/user-attachments/assets/509dc641-8633-487d-8380-d75ba78897c9" width="30%">
+  <img alt="a" src="https://github.com/user-attachments/assets/cc5b588a-9607-4f3f-9847-5c92573bcfc4" width="30%">
    
 </p>
 
 <p align="left">
-  <img alt="b" src="https://github.com/user-attachments/assets/46822275-2a5d-4b58-956e-0d6d1f5d6148" width="30%">
+  <img alt="b" src="https://github.com/user-attachments/assets/a970455e-3c68-4c25-9a95-6adcd553010f" width="30%">
    <img width="3%">
-   <img alt="d" src="https://github.com/user-attachments/assets/1b3d5eb2-523e-41d1-a859-9a82827841e0" width="30%">
+   <img alt="d" src="https://github.com/user-attachments/assets/a84f2c9d-d03f-4865-bf7b-8c1e054f44c0" width="30%">
 </p>
 
 
 <p align="left">
-  <img alt="e" src="https://github.com/user-attachments/assets/5fa409a0-e50e-4c4c-a1bb-685405edac9c" width="30%">
+  <img alt="e" src="https://github.com/user-attachments/assets/08dbe098-43d8-477f-9047-bfa046627e9e" width="30%">
    <img width="3%">
-  <img alt="f" src="https://github.com/user-attachments/assets/c987a30b-c41e-4b7d-b0aa-7ce3b1c1589a" width="30%">
+  <img alt="f" src="https://github.com/user-attachments/assets/96fcee49-d7dc-40bd-8337-d98ef5cf5dfb" width="30%">
 </p>
 
 <p align="left">
-  <img alt="g" src="https://github.com/user-attachments/assets/1e03f964-113c-4763-aea7-2bb7eda21b83" width="30%">
+  <img alt="g" src="https://github.com/user-attachments/assets/15936f64-d465-4ac4-b3ca-2b9aa8012e47" width="30%">
    <img width="3%">
-  <img alt="h" src="https://github.com/user-attachments/assets/8e683dc4-261b-4b82-b07c-37a41e5729fe" width="30%">
+  <img alt="h" src="https://github.com/user-attachments/assets/bb0831b3-49f4-4363-922f-985bc4dda997" width="30%">
 </p>
 
 
 <p align="left">
-  <img alt="z" src="https://github.com/user-attachments/assets/38147b05-5af2-409d-836c-c57aa594391e" width="30%">
+  <img alt="z" src="https://github.com/user-attachments/assets/f4cf0959-132f-4bd7-85d6-833d4fad4139" width="30%">
     <img width="3%">
-   <img alt="k" src="https://github.com/user-attachments/assets/0aa85f15-6b85-4621-a443-2c886e49e3b7" width="30%">
+   <img alt="k" src="https://github.com/user-attachments/assets/2ff06271-9601-4e44-8515-fc4361e2b2f1" width="30%">
 </p>
 
 <p align="left">
-    <img alt="y" src="https://github.com/user-attachments/assets/9329a6d1-e61d-48e7-8ee0-bc021e9d708c" width="30%">
+    <img alt="y" src="https://github.com/user-attachments/assets/90553571-cf7e-4457-9892-bfec92efb5b4" width="30%">
   <img width="3%">
 </p>
 
